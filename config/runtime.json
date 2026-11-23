@@ -1,0 +1,64 @@
+{
+  "reference_material": {
+    "static_friction": 0.65,
+    "dynamic_friction": 0.55
+  },
+  "right_contact_links": [
+    "right_vx300s_left_finger_link",
+    "right_arm_elastomer_left",
+    "right_vx300s_right_finger_link",
+    "right_arm_elastomer_right"
+  ],
+  "physics_dt_s": 0.008333333333333333,
+  "initial_warmup_steps": 90,
+  "ready_warmup_steps": 90,
+  "approach_delta_m": [
+    0,
+    0.035,
+    0.035
+  ],
+  "seconds": {
+    "settle": 0.15,
+    "grip": 0.5,
+    "preprobe": 0.18,
+    "probe": 0.16,
+    "probe_hold": 0.18,
+    "hold": 0.25,
+    "release": 0.4
+  },
+  "preprobe_rise_m": 0.00025,
+  "retract_delta_m": [
+    0,
+    0.025,
+    0.025
+  ],
+  "initial_joint_targets": [
+    0,
+    -0.16,
+    1.15,
+    0,
+    -0.5,
+    0,
+    0.042,
+    -0.042,
+    0,
+    -0.16,
+    1.15,
+    0,
+    -0.5,
+    0,
+    0.042,
+    -0.042
+  ],
+  "right_ee_quaternion_wxyz": [
+    0.6730310916900635,
+    0.2001994550228119,
+    0.159712553024292,
+    -0.6938596367835999
+  ],
+  "base_right_ee_offset_from_plug_m": [
+    -0.0014649764634668827,
+    0.07117342948913574,
+    0.10347973555326462
+  ]
+}

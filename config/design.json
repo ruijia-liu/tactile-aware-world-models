@@ -1,0 +1,45 @@
+{
+  "version": "flexitac-development-and-confirmation-three-actions-v1",
+  "seed_base": 331106,
+  "native_hz": 120,
+  "decision_steps_after_lift": 20,
+  "maximum_opening_change_per_step": 0.015,
+  "branches": {
+    "tight": 0.27,
+    "hold": 0.35,
+    "relieved": 0.45
+  },
+  "reference_gripper": 0.35,
+  "pad_materials": {
+    "p06": [
+      0.06,
+      0.04
+    ],
+    "p80": [
+      0.8,
+      0.65
+    ]
+  },
+  "plug_materials": {
+    "s03": [
+      0.03,
+      0.02
+    ],
+    "s55": [
+      0.55,
+      0.4
+    ]
+  },
+  "matched_reset_limits": {
+    "max_plug_distance_mm": 2.0,
+    "max_plug_velocity_difference_mm_s": 20.0,
+    "max_right_ee_distance_mm": 2.0,
+    "max_aperture_difference_mm": 1.0
+  },
+  "success": {
+    "goal_distance_mm": 5,
+    "lift_mm": 15,
+    "hold_steps": 24,
+    "deadline_steps_from_lift": 360
+  }
+}
